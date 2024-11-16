@@ -1,30 +1,41 @@
 import './styles.css'
 import profileImage from "./Images/prof-girl.png";
+import {BrowserRouter as Router , Routes, Route,Link} from 'react-router-dom'
+import Portfolio from './Portfolio';
+import Certificates from './Certificates';
+import AboutMe from './Aboutme';
+import ContactMe from './Contactme';
+
 function Home(){
 
 
     return(
 
+
+
+
         <div>  
         <div className="nav">  
           <ul>  
             <li>  
-              <a href="Contactme.html">Contact Me</a>  
+              <Link to="/Contactme">Contact Me</Link>  
             </li>  
             <li>  
-              <a href="Aboutme.html">About Me</a>  
+              <Link to="/Aboutme">About Me</Link>  
             </li>  
             <li>  
-              <a href="Projects.html">Projects</a>  
+              <Link to="/Projects">Projects</Link>  
             </li>  
             <li>  
-              <a href="Portfolio.html">Portfolio</a>  
+              <Link to="/Portfolio">Portfolio</Link>  
             </li>  
             <li>  
-              <a href="certs.html">Certificates</a>  
+              <Link to="/Certificates">Certificates</Link>  
             </li>  
           </ul>  
         </div>  
+
+        
   
         <nav className="navigation">  
           <p className="intro">  
@@ -45,8 +56,15 @@ function Home(){
         </div>  
   
         <script src="index.js"></script>  
+
+
+
       </div>
 
+
+      
+
+ 
 
     );
 

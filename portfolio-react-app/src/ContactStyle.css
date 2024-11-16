@@ -1,15 +1,22 @@
 .contact-me-container {
     padding: 20px;
-    margin: 0 auto;
+    margin-top: 0;
     background-color: #f9f9f9;
+    width: 850px;  
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 30px;
+    margin-left: 200px;
+    border-radius: 20px;
   }
   
   h1, h2, h3 {
-    color: #10dbc3;
+    color: #f02b2b;
   }
   
   .form-group {
     margin-bottom: 15px;
+    width: 100%;
   }
   
   label {

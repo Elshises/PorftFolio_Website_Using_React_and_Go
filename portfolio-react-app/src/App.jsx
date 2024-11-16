@@ -13,7 +13,7 @@ function App() {
 return(
 <Router>
 
-  <nav>
+  {/* <nav>
     <ul>
       <li>
         <Link to="/"></Link>
@@ -28,7 +28,7 @@ return(
       <Link to="/Aboutme" ></Link>
       </li>
     </ul>
-  </nav>
+  </nav> */}
 
 
 
@@ -41,9 +41,8 @@ return(
 <Route path="/Certificates" element={<Certificates/>}/>
 <Route path="/Aboutme" element={<AboutMe/>}/>
 <Route path="/Contactme" element={<ContactMe/>}/>
-
-
 </Routes>
+
 
 
 </Router>

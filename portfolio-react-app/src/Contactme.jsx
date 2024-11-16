@@ -25,7 +25,40 @@ function ContactMe() {
   };
 
   return (
+
+    
     <div className="contact-me-container">
+
+<div
+        className="nav"
+        style={{
+          backgroundImage:
+            "linear-gradient(109.6deg, rgba(0,0,0,1) 11.2%, rgba(244,232,3,1) 30%, rgba(31,20,20,1) 41.3%, rgba(0,255,0,1) 55.4%, rgba(13,15,14,1) 65.7%, rgba(5,7,6,1) 69.1%, rgba(49,240,156,1) 84.4%)",
+          justifyContent: "center",
+        }}
+      >
+        <label id="brag-label">Elshises Contacts</label>
+        <ul>
+          <li>
+            <a href="Home.html">Home</a>
+          </li>
+          <li>
+            <a href="Contactme.html">Contact Me</a>
+          </li>
+          <li>
+            <a href="Aboutme.html">About Me</a>
+          </li>
+          <li>
+            <a href="Projects.html">Projects</a>
+          </li>
+          <li>
+            <a href="Portfolio.html">Portfolio</a>
+          </li>
+        </ul>
+      </div>
+
+
+
       <h1>Contact Me</h1>
       
       {/* Contact Form */}
