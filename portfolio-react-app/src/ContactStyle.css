@@ -1,0 +1,65 @@
+.contact-me-container {
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+  }
+  
+  h1, h2, h3 {
+    color: #10dbc3;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  .submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .contact-details {
+    margin-top: 30px;
+  }
+  
+  .social-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-links li {
+    margin: 5px 0;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: #0077b5;
+  }
+  
+  .social-links a:hover {
+    color: #005f8a;
+  }
+  
