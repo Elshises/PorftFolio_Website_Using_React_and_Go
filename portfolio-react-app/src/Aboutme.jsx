@@ -1,5 +1,7 @@
 import React from "react";
 import './AboutStyle.css'
+import {BrowserRouter as Router , Routes, Route,Link} from 'react-router-dom'
+
 
 function AboutMe() {
   return (
@@ -14,29 +16,29 @@ function AboutMe() {
         }}
       >
         <label id="brag-label">Elshises About</label>
-        <ul>
-          <li>
-            <a href="Home.html">Home</a>
-          </li>
-          <li>
-            <a href="Contactme.html">Contact Me</a>
-          </li>
-          <li>
-            <a href="Aboutme.html">About Me</a>
-          </li>
-          <li>
-            <a href="Projects.html">Projects</a>
-          </li>
-          <li>
-            <a href="Portfolio.html">Portfolio</a>
-          </li>
-        </ul>
+        <ul>  
+        <li>  
+              <Link to="/">Home</Link>  
+            </li> 
+            <li>  
+              <Link to="/Contactme">Contact Me</Link>  
+            </li>   
+            <li>  
+              <Link to="/Portfolio">Projects</Link>  
+            </li>   
+            <li>  
+              <Link to="/Portfolio">Portfolio</Link>  
+            </li>  
+            <li>  
+              <Link to="/Certificates">Certificates</Link>  
+            </li> 
+          </ul> 
       </div>
 
 
       {/* Introduction Section */}
       <section className="intro-section">
-        <h1>About Me</h1>
+        <h1>About Me</h1>  <button><a href="/Documents/myCV.pdf" download="cv.pdf">Download CV</a></button>
         <p>
           Hello! I'm <span className="highlight">Elshises</span>, a passionate and
           dedicated <span className="highlight">Software Engineer</span> with a knack
@@ -44,6 +46,9 @@ function AboutMe() {
           on innovation, enjoy collaborating with teams, and am constantly
           seeking to expand my skills and knowledge.
         </p>
+
+
+
       </section>
 
       {/* Skills Section */}

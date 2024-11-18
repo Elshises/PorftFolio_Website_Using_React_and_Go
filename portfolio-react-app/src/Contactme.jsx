@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import './ContactStyle.css'
+import './styles.css'
+import {BrowserRouter as Router , Routes, Route,Link} from 'react-router-dom'
 
 function ContactMe() {
   const [formData, setFormData] = useState({
@@ -28,8 +30,7 @@ function ContactMe() {
 
     
     <div className="contact-me-container">
-
-<div
+  <div
         className="nav"
         style={{
           backgroundImage:
@@ -37,27 +38,27 @@ function ContactMe() {
           justifyContent: "center",
         }}
       >
-        <label id="brag-label">Elshises Contacts</label>
-        <ul>
-          <li>
-            <a href="Home.html">Home</a>
-          </li>
-          <li>
-            <a href="Contactme.html">Contact Me</a>
-          </li>
-          <li>
-            <a href="Aboutme.html">About Me</a>
-          </li>
-          <li>
-            <a href="Projects.html">Projects</a>
-          </li>
-          <li>
-            <a href="Portfolio.html">Portfolio</a>
-          </li>
-        </ul>
+        <label id="brag-label">Elshises</label>
+        <ul>  
+        <li>  
+              <Link to="/">Home</Link>  
+            </li> 
+            <li>  
+              <Link to="/Aboutme">About Me</Link>  
+            </li>  
+            <li>  
+              <Link to="/Portfolio">Projects</Link>  
+            </li>   
+            <li>  
+              <Link to="/Certificates">Certificates</Link>  
+            </li>  
+          </ul> 
+
       </div>
 
+<div className="nav" style={{width:"100%",height:"200px"}}>
 
+</div>
 
       <h1>Contact Me</h1>
       
@@ -109,8 +110,8 @@ function ContactMe() {
       {/* Contact Details */}
       <div className="contact-details">
         <h2>Or Reach Me Here:</h2>
-        <p><strong>Email:</strong> your-email@example.com</p>
-        <p><strong>Phone:</strong> +123 456 7890</p>
+        <p><strong>Email:</strong>elshisesmburu@gmail.com</p>
+        <p><strong>Phone:</strong> +254 768 720 868</p>
         
         {/* Social Media Links */}
         <div className="social-links">

@@ -1,6 +1,7 @@
 import React from "react";
 import jsIntImage from "./Documents/jsint.jpg";
 import webDevImage from "./Documents/webdev.jpg";
+import {BrowserRouter as Router , Routes, Route,Link} from 'react-router-dom'
 
 function Certificates() {
   return (
@@ -14,24 +15,24 @@ function Certificates() {
           justifyContent: "center",
         }}
       >
-        <label id="brag-label">Elshises Certifications</label>
-        <ul>
-          <li>
-            <a href="Home.html">Home</a>
-          </li>
-          <li>
-            <a href="Contactme.html">Contact Me</a>
-          </li>
-          <li>
-            <a href="Aboutme.html">About Me</a>
-          </li>
-          <li>
-            <a href="Projects.html">Projects</a>
-          </li>
-          <li>
-            <a href="Portfolio.html">Portfolio</a>
-          </li>
-        </ul>
+        <label id="brag-label">Elshises Certs</label>
+        <ul>  
+        <li>  
+              <Link to="/">Home</Link>  
+            </li> 
+            <li>  
+              <Link to="/Contactme">Contact Me</Link>  
+            </li>  
+            <li>  
+              <Link to="/Aboutme">About Me</Link>  
+            </li>  
+            <li>  
+              <Link to="/Portfolio">Projects</Link>  
+            </li>   
+            <li>  
+              <Link to="/Portfolio">Portfolio</Link>  
+            </li>  
+          </ul> 
       </div>
 
       {/* Certifications Section */}
@@ -39,32 +40,32 @@ function Certificates() {
         <div className="cert-div">
           <p>Web Development</p>
           <img src={webDevImage} alt="Web Development Certificate" />
-          <button>Download</button>
+          <button><a href="/Documents/jsint.jpg" download="jsCert.jpg">Download</a></button>
         </div>
         <div className="cert-div">
           <p>JavaScript Intermediate</p>
           <img src={jsIntImage} alt="JavaScript Intermediate Certificate" />
-          <button>Download</button>
+          <button><a href="/Documents/jsint.jpg" download="jsCert.jpg">Download</a></button>
         </div>
         <div className="cert-div">
           <p>Cisco Networking</p>
           <img src={jsIntImage} alt="Cisco Networking Certificate" />
-          <button>Download</button>
+          <button><a href="/Documents/jsint.jpg" download="jsCert.jpg">Download</a></button>
         </div>
         <div className="cert-div">
           <p>Java Intermediate</p>
           <img src={webDevImage} alt="Java Intermediate Certificate" />
-          <button>Download</button>
+          <button><a href="/Documents/jsint.jpg" download="jsCert.jpg">Download</a></button>
         </div>
         <div className="cert-div">
           <p>Cyber Security</p>
           <img src={jsIntImage} alt="Cyber Security Certificate" />
-          <button>Download</button>
+          <button><a href="/Documents/webdev.jpg" download="jsCert.jpg">Download</a></button>
         </div>
         <div className="cert-div">
           <p>Canva Designs</p>
           <img src={webDevImage} alt="Canva Designs Certificate" />
-          <button>Download</button>
+          <button><a href="Documents/Jsint.jpg" download="jsCert.jpg">Download</a> </button>
         </div>
       </div>
     </div>

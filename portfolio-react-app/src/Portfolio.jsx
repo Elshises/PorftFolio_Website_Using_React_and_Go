@@ -5,6 +5,7 @@ import javaImage from "./Images/java2.png";
 import sqlImage from "./Images/sql.png";
 import mlImage from "./Images/ml.png";
 import flutterImage from "./Images/flutter.png";
+import {BrowserRouter as Router , Routes, Route,Link} from 'react-router-dom'
 import './styles.css'
 
 function Portfolio() {
@@ -18,21 +19,25 @@ function Portfolio() {
           justifyContent: "center",
         }}
       >
-        <label id="brag-label">Elshises Projects and Programs</label>
-        <ul>
-          <li>
-            <a href="Home.html">Home</a>
-          </li>
-          <li>
-            <a href="Contactme.html">Contact Me</a>
-          </li>
-          <li>
-            <a href="Aboutme.html">About Me</a>
-          </li>
-          <li>
-            <a href="certs.html">Certificates</a>
-          </li>
-        </ul>
+        <label id="brag-label">Elshises</label>
+        <ul>  
+        <li>  
+              <Link to="/">Home</Link>  
+            </li> 
+            <li>  
+              <Link to="/Contactme">Contact Me</Link>  
+            </li>  
+            <li>  
+              <Link to="/Aboutme">About Me</Link>  
+            </li>  
+            <li>  
+              <Link to="/Portfolio">Projects</Link>  
+            </li>   
+            <li>  
+              <Link to="/Certificates">Certificates</Link>  
+            </li>  
+          </ul> 
+
       </div>
 
       <div className="projects">

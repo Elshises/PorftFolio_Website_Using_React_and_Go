@@ -24,7 +24,7 @@ function Home(){
               <Link to="/Aboutme">About Me</Link>  
             </li>  
             <li>  
-              <Link to="/Projects">Projects</Link>  
+              <Link to="/Portfolio">Projects</Link>  
             </li>  
             <li>  
               <Link to="/Portfolio">Portfolio</Link>  
@@ -42,7 +42,7 @@ function Home(){
            
             Hi, I am  
             <span style={{ color: "#10dbca" }}> Elshises</span>, a  
-            <span style={{ color: "aqua" }}> Software Engineer</span> with a passion for solving problems and building efficient, user-friendly solutions. I specialize in [mention specific skills or languages, like full-stack development, Python, JavaScript, etc.] and have experience working on [mention types of projects, like web applications, mobile apps, etc.]. I enjoy collaborating with teams to create innovative software that drives value, and I’m always eager to learn and adapt to new technologies.  
+            <span style={{ color: "aqua" }}> Software Engineer</span> with a passion for solving problems and building efficient, user-friendly solutions. I specialize in  <span className='emph'>full-stack development</span> and also  <span className='emph'>mobile apps development</span>. I am an experienced programmer in  <span className='emph'>Python, JavaScript, Java and SQL</span>. I enjoy collaborating with teams to create innovative software that drives value, and I’m always eager to learn and adapt to new technologies.  
           </p>  
           <img  
             className="port-image"  
