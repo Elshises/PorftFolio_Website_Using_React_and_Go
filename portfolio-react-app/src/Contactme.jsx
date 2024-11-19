@@ -118,7 +118,7 @@ function ContactMe() {
           <h3>Follow Me:</h3>
           <ul>
             <li>
-              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">
                 LinkedIn
               </a>
             </li>
@@ -128,7 +128,7 @@ function ContactMe() {
               </a>
             </li>
             <li>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Elshises/PorftFolio_Website_Using_React_and_Go.git" target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>
             </li>
